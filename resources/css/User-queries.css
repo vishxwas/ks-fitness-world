@@ -1,0 +1,63 @@
+
+@media only screen and (max-width:1000px){
+    html{
+     zoom: 2;
+    }
+    .box{
+        left: 50%;
+    }
+    .box2{
+        left: 60%;
+        top: 55%;
+
+    }
+   /* body{
+        background-image: url(../images/phone-12.jpg);
+    }
+    .overlay{
+        background-color: rgba(0, 0, 0, 0.445);
+        
+    }
+    .box{
+        width: 600px;
+        height: 850px;
+        left: 50%;
+        background: #19191963;
+    }
+    .box h1{
+        font-size: 500%;
+    }
+    .type{
+        border-radius: 240px;
+        margin: 80px auto;
+        padding: 30px 10px;
+        width: 500px;
+        height: 6%;
+        font-size: 200%;
+    }
+    .type-2{
+        padding: 30px 70px;
+        font-size: 180%;
+        border-radius: 240px;
+       
+    }
+    .forgot-password{
+        bottom: 22.3%;
+        right: 15%;
+        font-size: 140%;
+    }
+    .user-login{
+        font-size: 220%;
+    }
+    .box2{
+        top:31%;
+        left: 55%;
+        background-color: transparent;
+    }
+    .box .h2{
+        margin: 0 auto;
+        font-size: 450%;
+    } */
+}
+
+   

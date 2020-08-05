@@ -1,0 +1,96 @@
+html{
+    transform: scale(auto);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+    background-image: url(../images/body-10.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black; 
+   
+    
+  
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.452);
+    
+}
+.box{
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background: #19191969;
+    text-align: center;
+    border-radius: 2px;
+}
+.type{
+    border: 0;
+    border-radius:24px ;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    -webkit-transition: 0.40s;
+    transition: 0.40s;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: lighter;
+    
+}
+.type:focus{
+    width:280px;
+    border-color: #2ecc71;
+
+}
+.type-2{
+    border: 0;
+    border-radius:24px ;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+   cursor: pointer;
+    outline: none;
+    color: white;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+.type-2:hover{
+    background: #2ecc71;
+
+}
+.forgot-password{
+    color:#2ecc71 ;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    right: 0;
+    margin-right: 1%;
+    font-weight: lighter;
+    font-size: 100%;
+
+}
+a{
+    color: inherit;
+}
